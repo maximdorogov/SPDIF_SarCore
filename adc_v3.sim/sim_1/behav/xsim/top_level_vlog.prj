@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../adc_v3.srcs/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../adc_v3.srcs/sources_1/new/LT2380_24_controller.v" \
+"../../../../adc_v3.srcs/sources_1/new/top_level.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

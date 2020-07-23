@@ -1,0 +1,103 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Apr 10 22:52:55 2020
+| Host         : DESKTOP-4H7CRNK running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_control_sets_placed.rpt
+| Design       : top_level
+| Device       : xc7a35ti
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    34 |
+| Unused register locations in slices containing registers |   196 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           24 |
+|      2 |            1 |
+|      6 |            2 |
+|      7 |            2 |
+|     13 |            1 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              29 |           12 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               7 |            2 |
+| Yes          | No                    | No                     |              31 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              81 |           37 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|         Clock Signal         |                Enable Signal                |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[5]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[9]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/start_ctr4_out       | U_LT2380_24_controller/o_CNV_i_1_n_0        |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[7]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[4]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[15]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[6]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[12]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[14]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[16]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[21]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[3]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[22]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[8]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[10]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[23]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[19]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[11]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[17]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[20]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[13]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[18]      | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[1]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData_0[2]       | U_LT2380_24_controller/SR[0]                |                1 |              1 |
+|  clk__0_BUFG                 | u_SPDIF_TX/frame_counter[8]_i_1_n_0         | u_SPDIF_TX/channel_status_shift[23]_i_1_n_0 |                2 |              2 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/CNV_posedge          | U_LT2380_24_controller/AVG_ctr[5]_i_1_n_0   |                2 |              6 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/sck_ctr              | U_LT2380_24_controller/sck_ctr_start        |                2 |              6 |
+|  instance_name/inst/clk_out1 |                                             | U_LT2380_24_controller/SR[0]                |                2 |              7 |
+|  clk__0_BUFG                 | u_SPDIF_TX/frame_counter[8]_i_1_n_0         |                                             |                3 |              7 |
+|  instance_name/inst/clk_out1 |                                             |                                             |                6 |             13 |
+|  clk__0_BUFG                 |                                             |                                             |                6 |             16 |
+|  clk__0_BUFG                 | u_SPDIF_TX/channel_status_shift[23]         | u_SPDIF_TX/channel_status_shift[23]_i_1_n_0 |                3 |             18 |
+|  clk__0_BUFG                 | u_SPDIF_TX/eqOp                             |                                             |                4 |             24 |
+|  instance_name/inst/clk_out1 | U_LT2380_24_controller/o_parData[0]_i_1_n_0 | U_LT2380_24_controller/SR[0]                |                4 |             25 |
++------------------------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+
+

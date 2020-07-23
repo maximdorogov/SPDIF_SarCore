@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Stopped at time : 1005 ns : File "C:/Users/ASUS/Desktop/FPGA/adc_v3/adc_v3.srcs/sim_1/new/LT2380_24_controller_prom_tb.v" Line 56
+$finish called at time : 10 us : File "C:/Users/ASUS/Desktop/FPGA/adc_v3/adc_v3.srcs/sim_1/new/LT2380_24_controller_prom_tb.v" Line 53

@@ -1,0 +1,1 @@
+-wto "ed3f4528de02461a81b316cf65d66596" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "LT2380_24_controller_prom_tb_behav" "xil_defaultlib.LT2380_24_controller_prom_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
